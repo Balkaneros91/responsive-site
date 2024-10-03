@@ -52,19 +52,7 @@ nav {
     border-radius: 10px;
 }
 
-/* New Workspace */
 
-.new-workspace {
-    height: 200px;
-    text-align: center;
-}
+@media (min-width: 768px) {
 
-.different-team {
-}
-
-.different-email {
-}
-
-@media (min-width: 450px) {
-    
 }
