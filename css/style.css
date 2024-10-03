@@ -92,7 +92,7 @@ main {
 }
 
 .welcome-msg h1 {
-    font-size: xx-large;
+    font-size: 3rem;
     align-self: center;
 }
 
@@ -121,8 +121,8 @@ main {
 }
 
 .card-content img {
-    width: 15vw;
-    height: 15vw;
+    width: 5rem;
+    height: 5rem;
     margin: 0.5rem;
 }
 
