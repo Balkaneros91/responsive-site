@@ -1,0 +1,37 @@
+
+nav {
+    background-color: rgb(87, 52, 120);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    height: 4vh;
+}
+
+.magnifying-glass {
+    width: 3.5vh;
+}
+
+.slack-logo {
+    width: 15vh;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6vh;
+}
+
+.hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    width: 3vh;
+    gap: 0.6vh;
+}
+
+.line {
+    background-color: #333;
+    height: 0.5vh;
+    border-radius: 5px;
+}
