@@ -35,3 +35,31 @@ nav {
     height: 0.5vh;
     border-radius: 5px;
 }
+
+/* Welcome back */
+.welcome-back {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-title {
+    background-color: #ecdeec;
+    padding: 1rem;
+}
+
+.welcome-title {
+    display: flex;
+}
+
+.workspace-card {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    border: 0.5rem solid purple;
+}
+
+.card-content {
+    /* display: flex;
+    flex-direction: column; */
+}
