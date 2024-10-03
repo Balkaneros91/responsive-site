@@ -60,6 +60,17 @@ nav {
 }
 
 .card-content {
-    /* display: flex;
-    flex-direction: column; */
+    display: flex;
+}
+
+.card-content img {
+    width: 10vw;
+    height: 10vw;
+    margin: 0.5rem;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
