@@ -99,11 +99,12 @@ main {
 .workspace-card {
     display: flex;
     flex-direction: column;
-    width: 100%;
     border: 0.3rem solid #6e446f;
+    background-color: white;
     border-radius: 0.5rem;
     color: black;
     margin-bottom: 2rem;
+    padding-bottom: 2rem;
 }
 
 .card-title {
@@ -120,8 +121,8 @@ main {
 }
 
 .card-content img {
-    width: 10vw;
-    height: 10vw;
+    width: 15vw;
+    height: 15vw;
     margin: 0.5rem;
 }
 
@@ -141,4 +142,13 @@ main {
     text-align: center;
     color: white;
     font-weight: 500;
+    background-color: #611f69;
+    width: 85%;
+    align-self: center;
+    border-radius: 0.3rem;
+    transition: 0.3s;
+}
+
+.launch-btn:hover {
+    background-color: #4a154b;
 }
