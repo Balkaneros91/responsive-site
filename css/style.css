@@ -116,8 +116,13 @@ main {
 
 .card-content {
     display: flex;
+    flex-direction: column;
     background-color: white;
     padding: 0.5rem;
+}
+
+.workspace-profile {
+    display: flex;
 }
 
 .card-content img {
@@ -151,4 +156,16 @@ main {
 
 .launch-btn:hover {
     background-color: #4a154b;
+}
+
+@media (min-width: 768px) {
+    .card-content {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .launch-btn {
+        width: 20%;
+        margin-right: 1rem;
+    }
 }
