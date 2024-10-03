@@ -44,3 +44,8 @@ nav {
     height: 2px;
     border-radius: 10px;
 }
+
+@media (min-width: 450px) {
+
+    
+}
