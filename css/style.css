@@ -20,8 +20,12 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.8rem;
+    padding: 2.5rem;
     height: 4vh;
+}
+
+.list-menu {
+    display: none;
 }
 
 .magnifying-glass {
@@ -52,7 +56,117 @@ nav {
     border-radius: 10px;
 }
 
+<<<<<<< HEAD
+.workspace-btn {
+    display: none;
+}
+
+.sales-btn {
+    display: none;
+}
+
+@media (min-width: 1024px) {
+
+    .slack-logo {
+        margin: 1rem;
+    }
+ 
+
+    .list-menu {
+        display: flex;
+    }
+
+    .list-menu ul {
+        display: flex;
+        list-style: none;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 500;
+        gap: 3vh;
+        margin-right: 2rem;
+    }
+
+    .list-menu a {
+        text-decoration: none;
+        font-weight: 650;
+        color: white;
+    }
+
+    li img {
+        width: 2vh;
+        margin-top: 0.3rem;
+    }
+    
+    .features,  .solutions, .resources {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        gap: 0.5vh;
+    }
+    
+    .prices:hover {
+        text-decoration: underline;
+    }
+
+    .enterprise:hover {
+        text-decoration: underline;
+    }
+
+    .btns {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5vh;
+        flex-shrink: 10;
+    }
+
+    .sales-btn{
+        display: flex;
+        color: white;
+        flex-wrap: nowrap;
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+
+    .sales-btn a {
+        text-decoration: none;
+        color: white;
+        padding: 3vh;
+    }
+
+    .sales-btn:hover {
+        border: 3px solid white;
+
+    }
+
+    .workspace-btn {
+        display: flex;
+        display: flex;
+        background-color: white;
+        flex-wrap: nowrap;
+        border: 1px solid #4a154b;
+        border-radius: 5px;
+    }
+
+    .workspace-btn a {
+        text-decoration: none;
+        color: #4a154b;
+        padding: 3vh;
+    }
+
+    .workspace-btn:hover {
+        border: 2px solid #381039;
+    }
+
+    .hamburger-menu {
+        display: none;
+    }
+
+}
+=======
 
 @media (min-width: 768px) {
 
 }
+>>>>>>> 433fcdaaa74c148c4081cc9691dd142aa4d37780
