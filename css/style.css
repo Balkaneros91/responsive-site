@@ -13,6 +13,7 @@ body {
     background-color: var(--background-color);
     color: var(--color);
     font-size: 16px;
+    font-size: 16px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -166,7 +167,7 @@ nav {
 
 }
 
-/* New Workspace */
+/* New Workspace -ANTONIO */
 
 section.new-workspace {
     position: relative;
