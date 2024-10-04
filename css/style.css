@@ -12,7 +12,9 @@
 body {
     background-color: var(--background-color);
     color: var(--color);
+    font-size: 16px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
   
@@ -56,6 +58,8 @@ nav {
     height: 2px;
     border-radius: 10px;
 }
+
+
 
 .workspace-btn {
     display: none;
@@ -165,17 +169,84 @@ nav {
 
 }
 
-/* New Workspace */
+/* New Workspace -ANTONIO */
 
-.new-workspace {
-    height: 200px;
+section.new-workspace {
+    position: relative;
     text-align: center;
+    margin: 50px;
+    color: black;
 }
+
+/* TEAM */
 
 .different-team {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    background-color: #ffffff;
+    border: 5px solid #6f456f;
+    border-radius: 10px;
+    height: 250px;
 }
 
+.different-team p {
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.different-team a {
+    color: #000000;
+    text-decoration: none;
+    border: 1px solid var(--background-color);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 10px;
+    width: auto;
+}
+
+.different-team a:hover {
+    border: 2px solid var(--background-color);
+    transition: 0.3s;
+}
+
+.different-team img {
+    position: absolute;
+    width: 50%;
+    top: 166px;
+    left: 5px;
+}
+
+/* EMAIL */
+
 .different-email {
+    font-size: 1.2rem;
+    padding-top: 30px;
+    line-height: 1.5;
+}
+
+.different-email p {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.different-email a {
+    color: #36c5ef;
+    border-bottom: none;
+    text-decoration: none;
+    padding: 10px 0;
+}
+
+.different-email svg {
+    margin-left: 5px;
+    width: 3%;
+    fill: #36c5ef;
+    vertical-align: middle;
+}
+
+.different-email a:hover {
+    border-bottom: 2px solid #36c5f0;
+    transition: 0.3s;
 }
 
 @media (min-width: 450px) {
